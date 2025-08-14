@@ -1,7 +1,7 @@
 -- Database: sql_project_retail_price (Project 1)
 
--- DROP DATABASE IF EXISTS sql_project_retail_price;
-
+ DROP DATABASE IF EXISTS sql_project_retail_price;
+	DROP TABLE IF EXISTS retail_sales
 -- create table
 CREATE TABLE retail_sales
 	(
@@ -19,6 +19,7 @@ CREATE TABLE retail_sales
 		);
 
 SELECT * FROM retail_sales
+LIMIT 10
 
 SELECT COUNT(*) FROM retail_sales
 
@@ -49,6 +50,7 @@ SELECT COUNT(*) FROM retail_sales
 -- Data Exploration
 
 -- How many sales we have?
+SELECT COUNT(*) as total_sale FROM retail_sales
 
 -- How many unique customers we have 
 SELECT COUNT(DISTINCT(customer_id)) FROM retail_sales
