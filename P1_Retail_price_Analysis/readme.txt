@@ -1,6 +1,3 @@
-Certainly! Below is the cleaned and professional `README.md` file **without emojis** and with each SQL block enclosed in triple backticks and labeled as `sql`:
-
----
 
 ````markdown
 # SQL Project 1: Retail Sales Analysis
